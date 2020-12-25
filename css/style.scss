@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:rgb(252, 241, 241)
+}
+h1{
+    text-decoration: underline;
+}
+h3{
+    padding: 1rem;
+    color: red;
+    font-size: 150%;
+    span{
+        color: rgb(179, 5, 179);
+    }
+}
+.grid{
+    display: flex;
+    flex-wrap:wrap;
+    height: 150px;
+    width:200px;
+
+}
+img{
+    height: 50px;
+    width:50px;
+    padding: 0.6rem;
+    border: 1px solid rgb(219, 20, 20);
+
+}
