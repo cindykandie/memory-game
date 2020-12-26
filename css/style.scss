@@ -2,7 +2,7 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
-    font-family: cursive;
+    font-family: georgia,'Times New Roman', Times, serif;
 }
 body{
     padding: 2rem;
@@ -10,15 +10,16 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background:rgb(252, 241, 241)
+    background:rgb(252, 241, 241);
+    height: 100vh;
 }
 h1{
     text-decoration: underline;
 }
 h3{
-    padding: 1rem;
+    padding: 1.5rem;
     color: red;
-    font-size: 150%;
+    font-size: 120%;
     span{
         color: rgb(179, 5, 179);
     }
@@ -26,14 +27,53 @@ h3{
 .grid{
     display: flex;
     flex-wrap:wrap;
-    height: 150px;
-    width:200px;
+    height: 210px;
+    width:280px;
+    margin-bottom:6rem;
 
-}
 img{
-    height: 50px;
-    width:50px;
+    height: 70px;
+    width:70px;
     padding: 0.6rem;
     border: 1px solid rgb(219, 20, 20);
 
+}
+}
+footer{
+    background-color:inherit;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+
+    .socials{
+        padding: 20px 20px;
+        display: flex;
+        img{
+            width: 25px;
+            margin: 20px 20px;
+        }
+        img:hover{
+            background-color: #ff00b3;
+            border-radius:3px;
+        }
+    }    
+    a{
+        text-decoration: none;
+
+        p{
+            font-size: 10px;
+            padding: 20px;
+        }
+        p:hover{
+            background-color: #f77ed2;
+        }
+
+    }
+    a:hover{
+        text-decoration: underline black;
+        color:black;
+    }
 }
